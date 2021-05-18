@@ -389,16 +389,3 @@ async def kayo(message, strings):
 
 
 __mod_name__ = "Anime"
-
-__help__ = """
-Get information about anime, manga or anime characters.
-
-<b>Available commands:</b>
-- /anime (anime): returns information about the anime.
-- /manga (manga): returns information about the manga.
-- /airing (anime): returns anime airing info.
-- /character (character): returns information about the character.
-- /kaizoku (anime): search an anime on animekaizoku.com
-- /kayo (anime): search an anime on animekayo.com
-- /upcoming: returns a list of new anime in the upcoming seasons.
-"""
