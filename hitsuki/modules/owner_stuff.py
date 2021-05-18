@@ -168,7 +168,7 @@ async def bot_stop(message):
 
 @register(cmds="restart", is_owner=True)
 async def restart_bot(message):
-    m = await message.reply("Hitsuki will be restarted...")
+    m = await message.reply("Nao will be restarted...")
     args = [sys.executable, "-m", "hitsuki"]
     await m.edit_text("See you later...")
     os.execl(sys.executable, *args)
@@ -235,7 +235,7 @@ async def get_event(message):
 
 @register(cmds="stats", is_op=True)
 async def stats(message):
-    text = f"<b>Hitsuki {HITSUKI_VERSION} stats</b>\n"
+    text = f"<b>Nao {HITSUKI_VERSION} stats</b>\n"
 
     for module in [m for m in LOADED_MODULES if hasattr(m, '__stats__')]:
         text += await module.__stats__()
@@ -246,27 +246,24 @@ async def stats(message):
 async def __stats__():
     text = ""
     if os.getenv('WEBHOOKS', False):
-        text += f"* Webhooks mode, listen port: <code>{os.getenv('WEBHOOKS_PORT', 8080)}</code>\n"
+        text += f"• Webhooks mode, listen port: <code>{os.getenv('WEBHOOKS_PORT', 8080)}</code>\n"
     else:
-        text += "* Long-polling mode\n"
-    text += "* Database structure version <code>{}</code>\n".format(
-        (await db.db_structure.find_one({}))['db_ver']
-    )
+        text += "• Long-polling mode\n"
     local_db = await db.command("dbstats")
     if 'fsTotalSize' in local_db:
-        text += '* Database size is <code>{}</code>, free <code>{}</code>\n'.format(
+        text += '• Database size is <code>{}</code>, free <code>{}</code>\n'.format(
             convert_size(local_db['dataSize']),
             convert_size(local_db['fsTotalSize'] - local_db['fsUsedSize'])
         )
     else:
-        text += '* Database size is <code>{}</code>, free <code>{}</code>\n'.format(
+        text += '• Database size is <code>{}</code>, free <code>{}</code>\n'.format(
             convert_size(local_db['storageSize']),
             convert_size(536870912 - local_db['storageSize'])
         )
 
-    text += "* <code>{}</code> total keys in Redis database\n".format(
+    text += "• <code>{}</code> total keys in Redis database\n".format(
         len(redis.keys()))
-    text += "* <code>{}</code> total commands registred, in <code>{}</code> modules\n".format(
+    text += "• <code>{}</code> total commands registred, in <code>{}</code> modules\n".format(
         len(REGISTRED_COMMANDS), len(LOADED_MODULES))
     return text
 

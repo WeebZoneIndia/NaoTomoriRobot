@@ -21,14 +21,14 @@ import logging
 
 from aiogram import Bot, Dispatcher, types
 from aiogram.bot.api import TelegramAPIServer, TELEGRAM_PRODUCTION
-from aiogram.contrib.fsm_storage.redis import RedisStorage2
+from aiogram.contrib.fsm_storage.memory import MemoryStorage
 
 from hitsuki.config import get_str_key, get_int_key, get_list_key, get_bool_key
 from hitsuki.utils.logger import log
 from hitsuki.versions import HITSUKI_VERSION
 
 log.info("----------------------")
-log.info("|      Hitsuki X      |")
+log.info("|      Nao           |")
 log.info("----------------------")
 log.info("Version: " + HITSUKI_VERSION)
 
@@ -54,11 +54,7 @@ else:
 
 # AIOGram
 bot = Bot(token=TOKEN, parse_mode=types.ParseMode.HTML, server=server)
-storage = RedisStorage2(
-    host=get_str_key("REDIS_URI"),
-    port=get_int_key("REDIS_PORT"),
-    db=get_int_key("REDIS_DB_FSM")
-)
+storage = MemoryStorage()
 dp = Dispatcher(bot, storage=storage)
 
 loop = asyncio.get_event_loop()

@@ -259,9 +259,14 @@ A module with some useful commands but without a specific category.
 <b>Available commands:</b>
 - /direct (url): Generates direct links from the sourceforge.net
 - /github (username): Returns info about a GitHub user or organization.
-- /cancel: Disables current state. Can help in cases if Hitsuki not responing on your message.
+- /cancel: Disables current state. Can help in cases if Nao not responing on your message.
 - /id: get the current group id. If used by replying to a message, gets that user's id.
 - /info: get information about a user.
 - /afk (reason): Mark yourself as AFK. When marked as AFK, any mentions will be replied to with a message stating that you're not available!
-- /paste (text) or reply: Paste a text into <code>nekobin.com</code>.
+- /getsticker: Give the sticker image and ID.
+
+- /lang: Shows a list of avaible languages
+- /lang (language codename): Sets a language
+<b>Example:</b> <code>/lang</code>
+Hitsuki will send you bunch of inline buttons where you can select your prefered language interatively without any hassles!
 """

@@ -60,11 +60,4 @@ async def pin_message(message, strings):
         await message.reply(strings['chat_not_modified_pin'])
 
 
-__mod_name__ = "Pinning"
-
-__help__ = """
-All the pin related commands can be found here; keep your chat up to date on the latest news with a simple pinned message!
-
-- /pin: silently pins the message replied to - add 'loud' or 'notify' to give notifs to users.
-- /unpin: unpins the currently pinned message - add 'all' to unpin all pinned messages.
-"""
+__mod_name__ = "Pins"

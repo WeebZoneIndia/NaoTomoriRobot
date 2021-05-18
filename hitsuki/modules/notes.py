@@ -674,7 +674,7 @@ __mod_name__ = "Notes"
 
 __help__ = """
 Sometimes you need to save some data, like text or pictures. With notes, you can save any types of Telegram's data in your chats.
-Also notes perfectly working in PM with Hitsuki.
+Also notes perfectly working in PM with Nao.
 
 <b>Available commands:</b>
 - /save (name) (data): Saves the note.

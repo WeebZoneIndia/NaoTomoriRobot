@@ -1251,12 +1251,12 @@ Well basically there is 2 reasons to use Federations:
 1. You have many chats and want to ban users in all of them with 1 command
 2. You want to subscribe to any of the antispam Federations to have your chat(s) protected.
 
-In both cases Hitsuki will help you.
+In both cases Nao will help you.
 
 <b>Arguments types help:</b>
 <code>()</code>: required argument
 <code>(user)</code>: required but you can reply on any user's message instead
-<code>(file)</code>: required file, if file isn't provided you will be entered in file state, this means Hitsuki will wait file message from you. Type /cancel to leave from it.
+<code>(file)</code>: required file, if file isn't provided you will be entered in file state, this means Nao will wait file message from you. Type /cancel to leave from it.
 <code>(? )</code>: additional argument
 
 <b>Only Federation owner:</b>

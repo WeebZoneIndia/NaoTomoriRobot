@@ -17,27 +17,17 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 from apscheduler.executors.asyncio import AsyncIOExecutor
-from apscheduler.jobstores.redis import RedisJobStore
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from pytz import utc
 
-from hitsuki.config import get_str_key, get_int_key
+from hitsuki.config import get_str_key, get_int_key, get_bool_key
 from hitsuki.utils.logger import log
 
 DEFAULT = "default"
-
-jobstores = {
-    DEFAULT: RedisJobStore(
-        host=get_str_key("REDIS_URI"),
-        port=get_str_key("REDIS_PORT"),
-        db=get_int_key("REDIS_DB_FSM")
-    )
-}
 executors = {DEFAULT: AsyncIOExecutor()}
 job_defaults = {"coalesce": False, "max_instances": 3}
 
-scheduler = AsyncIOScheduler(
-    jobstores=jobstores, executors=executors, job_defaults=job_defaults, timezone=utc
+scheduler = AsyncIOScheduler(executors=executors, job_defaults=job_defaults, timezone=utc
 )
 
 log.info("Starting apscheduller...")

@@ -48,10 +48,3 @@ async def get_sticker(message, strings):
 
 
 __mod_name__ = "Stickers"
-
-__help__ = """
-Stickers are the best way to show emotion.
-
-<b>Available commands:</b>
-- /getsticker: Give the sticker image and ID.
-"""

@@ -168,18 +168,21 @@ STRINGS:
     cant_promote_yourself: "Vous ne pouvez pas vous promouvoir vous-même."
     emoji_not_allowed: "Je suis désolé, mais les rôles d'administration ne peuvent pas avoir d'émojis 😞"
   pm_menu:
-    start_hi_group: 'Salut ! Je m''appelle Hitsuki'
-    start_hi: "Bonjour! Je m'appelle Hitsuki, je vous aide à gérer votre groupe de manière efficace !"
-    btn_source: "📦 Code source"
-    btn_help: "❔ Aide"
-    btn_lang: "🇷🇺 Langue"
-    btn_channel: "📬 Hitsuki News"
+    start_hi_group: 'Salut ! Je m''appelle Nao'
+    start_hi: "Bonjour! Je m'appelle <a href='https://telegra.ph/file/558dca29bd62a0419992e.jpg'>Nao</a>, je vous aide à gérer votre groupe de manière efficace!"
+    btn_help: "📕 Help"
+    btn_add: "➕ Add Me"
+    btn_lang: "🌐 Languages"
+    btn_chat: "🚑 Support"
+    btn_channel: "📬 Updates"
+    btn_source: "📦 Source"
     btn_group_help: "Click me for help!"
-    back: Retour
+    back: 🔙
     help_for: "Help for <b>{mod_name}</b> module:\n"
     help_for_a: "Help for {mod_name}."
+
     #/help
-    help_header: "Hey! Je m'appelle <b>Hitsuki</b>. Je suis un robot de gestion de groupe, là pour vous aider à vous déplacer et à garder l'ordre dans vos groupes!\nJ'ai beaucoup de fonctionnalités pratiques, telles que le contrôle des inondations, un système d'alerte, un système de conservation de notes et même des réponses prédéterminées sur certains mots clés."
+    help_header: "Hey! Je m'appelle <a href='https://telegra.ph/file/f5c14e09f684c9fd64ade.png'>Nao</a>. Je suis un robot de gestion de groupe, là pour vous aider à vous déplacer et à garder l'ordre dans vos groupes!\nJ'ai beaucoup de fonctionnalités pratiques, telles que le contrôle des inondations, un système d'alerte, un système de conservation de notes et même des réponses prédéterminées sur certains mots clés."
     click_btn: Cliquez ici
   disable:
     #/disableable

@@ -168,17 +168,19 @@ STRINGS:
     emoji_not_allowed: "Sinto muito, mas o título de administrador não podem ter emojis 😞"
   pm_menu:
     start_hi_group: 'Olá! Meu nome é Hitsuki'
-    start_hi: "Olá! Meu nome é <b>Hitsuki.</b>\nEu posso ajudar a gerenciar seus grupos com recursos úteis, fique à vontade para me adicionar aos seus grupos!"
-    btn_source: "📦 Código fonte"
-    btn_help: "❔ Ajuda"
-    btn_lang: "🇧🇷 Idioma"
-    btn_channel: "📬 Notícias do Hitsuki"
-    btn_group_help: "Clique aqui para obter ajuda!"
-    back: Voltar
-    help_for: "Ajuda para o módulo <b>{mod_name}</b>:\n"
-    help_for_a: "Ajuda para {mod_name}."
+    start_hi: "Olá! Meu nome é <a href='https://telegra.ph/file/558dca29bd62a0419992e.jpg'>Nao</a>.\nEu posso ajudar a gerenciar seus grupos com recursos úteis, fique à vontade para me adicionar aos seus grupos!"
+    btn_help: "📕 Help"
+    btn_add: "➕ Add Me"
+    btn_lang: "🌐 Languages"
+    btn_chat: "🚑 Support"
+    btn_channel: "📬 Updates"
+    btn_source: "📦 Source"
+    btn_group_help: "Click me for help!"
+    back: 🔙
+    help_for: "Help for <b>{mod_name}</b> module:\n"
+    help_for_a: "Help for {mod_name}."
     #/help
-    help_header: "Ei! Meu nome é <b>Hitsuki</b>. Sou um bot de gerenciamento de grupo, estou aqui para ajudá-lo a se locomover e manter a ordem em seus grupos!\nTenho muitos recursos úteis, como controle de flood, um sistema de avisos, um sistema de notas e até mesmo respostas predeterminadas em certas palavras-chave."
+    help_header: "Ei! Meu nome é <a href='https://telegra.ph/file/f5c14e09f684c9fd64ade.png'>Nao</a>. Sou um bot de gerenciamento de grupo, estou aqui para ajudá-lo a se locomover e manter a ordem em seus grupos!\nTenho muitos recursos úteis, como controle de flood, um sistema de avisos, um sistema de notas e até mesmo respostas predeterminadas em certas palavras-chave."
     click_btn: Clique aqui
   disable:
     #/disableable
@@ -490,7 +492,7 @@ STRINGS:
     big_file: Somente arquivos menores de 50 MB são suportados!
     started_importing: Importação iniciada!  Por favor, espere...
     bad_file: Arquivo errado! Esperava-se coluna <code>'geral'</code>.
-    file_version_so_new: A versão do arquivo exportado é mais nova do que a Hitsuki suporta atualmente!
+    file_version_so_new: A versão do arquivo exportado é mais nova do que a Nao suporta atualmente!
     imports_locked: Por favor, aguarde %s antes de usar novamente a importação!
     import_done: Importação concluída!
   restrictions:
@@ -556,7 +558,7 @@ STRINGS:
   #success_remove_rules_note: "Successfully removed rules note in <b>{}</b>."
   greetings:
     default_welcome: "Bem-vindo {mention}! Tudo bem?"
-    thank_for_add: "Obrigado por me adicionar ao seu grupo! Dê uma olhada em /help e siga o meu canal de notícias @HitsukiNews."
+    thank_for_add: "Obrigado por me adicionar ao seu grupo! Dê uma olhada em /help e siga o meu canal de notícias @NaoUpdates."
     default_security_note: "Bem-vindo(a) {mention}! Por favor, clique no botão abaixo para verificar-se como humano!"
     bool_invalid_arg: Argumento inválido, espera-se <code>on</code>/<code>off</code>.
     #/setwelcome
@@ -672,7 +674,7 @@ STRINGS:
     setfloodaction_success: "Atualizado com sucesso a ação anti-flood para <b>{action}</b>!"
   android:
     cmd_example: "Digite o <b>codinome</b> do seu dispositivo!\nPor exemplo, <code>/{cmd} whyred</code>"
-    err_github: "Hitsuki tem tentado se conectar ao GitHub, parece que o GitHub está offline"
+    err_github: "Nao tem tentado se conectar ao GitHub, parece que o GitHub está offline"
     err_query: "Não foi possível encontrar nenhum resultado correspondente à sua consulta."
     err_ota: "Diga ao mantenedor da ROM para consertar seu json OTA. Tenho certeza de que isso não funciona com OTA e que também não funcionará com este bot :P"
     err_twrp: "O TWRP não está disponível para <code>{device}</code>"

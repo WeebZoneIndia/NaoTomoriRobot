@@ -239,7 +239,7 @@ async def connect_anon_admins(event: CallbackQuery):
 __mod_name__ = "Connections"
 
 __help__ = """
-Sometimes you need change something in your chat, like notes, but you don't want to spam in it, try connections, this allow you change chat settings and manage chat's content in personal message with Hitsuki.
+Sometimes you need change something in your chat, like notes, but you don't want to spam in it, try connections, this allow you change chat settings and manage chat's content in personal message with Nao.
 
 <b>Available commands are:</b>
 <b>Avaible only in PM:</b>

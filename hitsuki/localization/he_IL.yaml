@@ -167,18 +167,20 @@ STRINGS:
     cant_promote_yourself: "אתה לא יכול להוסיף את עצמך כמנהל."
     emoji_not_allowed: "I'm sorry, but admin roles can't have emojis 😞"
   pm_menu:
-    start_hi_group: 'שלום! השם שלי הוא Hitsuki'
-    start_hi: "שלום! השם שלי הוא <b>Hitsuki.</b>\nאני יכול לעזור לך בניהול הקבוצה עם תכונות שימושיות!"
-    btn_source: "📦 קוד"
-    btn_help: "❔ עזרה"
-    btn_lang: "🇮🇱 שפה"
-    btn_channel: "📬 חדשות Hitsuki"
-    btn_group_help: "לחץ כאן לעזרה!"
-    back: חזור
+    start_hi_group: 'שלום! השם שלי הוא Nao'
+    start_hi: "שלום! השם שלי הוא <a href='https://telegra.ph/file/558dca29bd62a0419992e.jpg'>Nao</a>.\nאני יכול לעזור לך בניהול הקבוצה עם תכונות שימושיות!"
+    btn_help: "📕 Help"
+    btn_add: "➕ Add Me"
+    btn_lang: "🌐 Languages"
+    btn_chat: "🚑 Support"
+    btn_channel: "📬 Updates"
+    btn_source: "📦 Source"
+    btn_group_help: "Click me for help!"
+    back: 🔙
     help_for: "Help for <b>{mod_name}</b> module:\n"
     help_for_a: "Help for {mod_name}."
     #/help
-    help_header: "היי! השם שלי הוא <b>Hitsuki</b>. ואני בוט לניהול קבוצות, אני יכול לעזו לך לשמור על הסדר בקבוצות שלך!\nיש לי הרבה תכונות שימושיות, כמו שליטה על הצפות, אזהרות, פתקים, ואפשרות ליצור טריגרים על מילים מסוימות."
+    help_header: "היי! השם שלי הוא <a href='https://telegra.ph/file/f5c14e09f684c9fd64ade.png'>Nao</a>. ואני בוט לניהול קבוצות, אני יכול לעזו לך לשמור על הסדר בקבוצות שלך!\nיש לי הרבה תכונות שימושיות, כמו שליטה על הצפות, אזהרות, פתקים, ואפשרות ליצור טריגרים על מילים מסוימות."
     click_btn: לחץ כאן
   disable:
     #/disableable

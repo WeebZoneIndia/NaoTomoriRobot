@@ -62,9 +62,11 @@ async def get_start_func(message, strings, edit=False):
     task = msg.edit_text if edit else msg.reply
     buttons = InlineKeyboardMarkup()
     buttons.add(InlineKeyboardButton(strings['btn_help'], callback_data='get_help'),
+                InlineKeyboardButton(strings['btn_channel'], url='https://t.me/NaoUpdates'))
+    buttons.add(InlineKeyboardButton(strings['btn_chat'], url='https://t.me/BotLabTeam'),
+                InlineKeyboardButton(strings['btn_add'], url=f'https://telegram.me/NaoTomoriRobot?startgroup=true'))
+    buttons.add(InlineKeyboardButton(strings['btn_source'], url=f'https://github.com/WeebTime/NaoTomori'),
                 InlineKeyboardButton(strings['btn_lang'], callback_data='lang_btn'))
-    buttons.add(InlineKeyboardButton(strings['btn_channel'], url='https://t.me/HitsukiNews'),
-                InlineKeyboardButton(strings['btn_source'], url='https://github.com/HitsukiNetwork/HitsukiX'))
     # Handle error when user click the button 2 or more times simultaneously
     with suppress(MessageNotModified):
         await task(strings['start_hi'], reply_markup=buttons)
@@ -106,7 +108,7 @@ async def help_cmd(message, strings):
 async def help_cmd_g(message, strings):
     text = (strings['btn_group_help'])
     button = InlineKeyboardMarkup().add(InlineKeyboardButton(
-        text=text, url="https://t.me/Hitsuki_BOT?start"))
+        text=text, url="https://t.me/NaoTomoriRobot?start"))
     await message.reply(strings['help_header'], reply_markup=button)
 
 

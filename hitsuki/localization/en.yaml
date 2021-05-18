@@ -5,8 +5,8 @@ language_info:
 STRINGS:
   notes:
     # /save
-    note_saved: "🗒 Note <code>{note_name}</code> saved in <b>{chat_title}</b>!"
-    note_updated: "🗒 Note <code>{note_name}</code> updated in <b>{chat_title}</b>!"
+    note_saved: "📓 Note <code>{note_name}</code> saved in <b>{chat_title}</b>!"
+    note_updated: "📓 Note <code>{note_name}</code> updated in <b>{chat_title}</b>!"
     you_can_get_note: "\nYou can retrieve this note by using <code>/get {note_name}</code>, or <code>#{note_name}</code>"
     # Translator note: please keep sure that you don't have space in the end of string
     note_aliases: "\nNote aliases:"
@@ -26,7 +26,6 @@ STRINGS:
     notelist_search: |
       <b>Pattern:</b> <code>{request}</code>
       <b>Matched notes:</b>
-
     # /clear
     note_removed: "Note <code>#{note_name}</code> removed in <b>{chat_name}</b>!"
     note_removed_multiple: |
@@ -45,7 +44,6 @@ STRINGS:
       <b>Search request in {chat_name}</b>:
       <b>Pattern:</b> <code>{request}</code>
       <b>Matched notes:</b>
-
     # /noteinfo
     note_info_title: "<b>Note info</b>\n"
     note_info_note: "Note names: %s\n"
@@ -112,7 +110,7 @@ STRINGS:
     warn_sofi: "Haha no way to warn myself!"
     warn_self: "Do you wanna warn yourself? Just leave the chat then."
     warn_admin: "Well.. you are wrong. You can't warn an admin."
-    warn: "{admin} has warned {user} in <b>{chat_name}</b>\n"
+    warn: "{admin} has warned {user}\n"
     warn_bun: "Warnings has been exceeded! {user} has been banned!"
     warn_num: "Warns: {curr_warns}/{max_warns}\n"
     warn_rsn: "Reason: <code>{reason}</code>\n"
@@ -135,9 +133,9 @@ STRINGS:
     warnlimit_updated: '✅ Warnlimit successfully updated to {num}'
 
     # /delwarns
-    purged_warns: "{admin} reset <code>{num}</code> warns of {user} in <b>{chat_title}</b>!"
+    purged_warns: "{admin} reset <code>{num}</code> warns of {user}!"
     usr_no_wrn: "{user} doesn't have any warns to reset."
-    rst_wrn_sofi: 'Hitsuki never had warns to reset.'
+    rst_wrn_sofi: 'Nao never had warns to reset.'
     not_digit: Warnlimits should be digits!
 
     # /warnmode
@@ -195,19 +193,21 @@ STRINGS:
     emoji_not_allowed: "I'm sorry, but admin roles can't have emojis 😞"
 
   pm_menu:
-    start_hi_group: 'Hey there! My name is Hitsuki'
-    start_hi: "Hey there! My name is <b>Hitsuki.</b>\nI can help manage your groups with useful features, feel free to add me to your groups!"
-    btn_source: "📦 Source code"
-    btn_help: "❔ Help"
-    btn_lang: "🇺🇸 Language"
-    btn_channel: "📬 Hitsuki News"
+    start_hi_group: 'Hey there! My name is <b>Nao</b>'
+    start_hi: "Hey there! My name is <a href='https://telegra.ph/file/f5c14e09f684c9fd64ade.png'>Nao</a>. I am an Anime themed group management bot, feel free to add me to your groups."
+    btn_help: "📕 Help"
+    btn_add: "➕ Add Me"
+    btn_lang: "🌐 Languages"
+    btn_chat: "🚑 Support"
+    btn_channel: "📬 Updates"
+    btn_source: "📦 Source"
     btn_group_help: "Click me for help!"
-    back: Back
+    back: 🔙
     help_for: "Help for <b>{mod_name}</b> module:\n"
     help_for_a: "Help for {mod_name}."
 
     # /help
-    help_header: "Hey! My name is <b>Hitsuki</b>. I am a group management bot, here to help you get around and keep the order in your groups!\nI have lots of handy features, such as flood control, a warning system, a note keeping system, and even predetermined replies on certain keywords."
+    help_header: "Hey! My name is <a href='https://telegra.ph/file/558dca29bd62a0419992e.jpg'>Nao</a>. I am an Anime themed group management bot, here to help you get around and keep the order in your groups!"
     click_btn: Click here
 
   disable:
@@ -518,7 +518,7 @@ STRINGS:
     # is chat creator
     unable_identify_creator: "Unable to identify anonymous chat creator, duplicate signature (titles) found!"
   owner_stuff:
-    father: "\nHe is my creator."
+    father: "\nHe is my creator.\n"
     sudo_crown: "\nHey! Look, that user has a crown, let me see it... Wow, it has an engraving - <b>'sudo user'</b>!"
   stickers:
     rpl_to_sticker: "Reply to a sticker!"
@@ -532,18 +532,18 @@ STRINGS:
     pinned_success: "Successfully pinned!"
     unpin_success: "Successfully unpinned!"
   users:
-    user_info: "<b>User info:</b>\n"
-    info_id: "ID: <code>{id}</code>"
-    info_first: "\nFirst name: {first_name}"
-    info_last: "\nLast name: {last_name}"
-    info_username: "\nUsername: {username}"
-    info_link: "\nUser link: {user_link}"
-    info_saw: "\nI saw them in <code>{num}</code> groups"
+    user_info: "<b>╒═══「 User info: 」</b>\n"
+    info_id: "• ID: <code>{id}</code>"
+    info_first: "\n• First name: {first_name}"
+    info_last: "\n• Last name: {last_name}"
+    info_username: "\n• Username: {username}"
+    info_link: "\n• User link: {user_link}"
+    info_saw: "\n╘══「 <b>Groups count:</b> <code>{num}</code> 」"
     info_fbanned: "\nBanned in current Federation: "
     info_admeme: "\nUser has admin rights in this chat."
     upd_cache: "Updating cache now..."
     upd_cache_done: "Admins cache was updated."
-    admins: "<b>Admin in this group:</b>\n"
+    admins: "<b>👑 Admins:</b>\n"
   imports_exports:
     # Exporting
     started_exporting: Exporting started! Please wait...
@@ -557,7 +557,7 @@ STRINGS:
     big_file: Only files under 50 MB are supported!
     started_importing: Importing started! Please wait...
     bad_file: Bad file! Expected <code>'general'</code> column.
-    file_version_so_new: Exported file version is newer than what Hitsuki currently supports!
+    file_version_so_new: Exported file version is newer than what Nao currently supports!
     imports_locked: Please wait %s before using imports again!
     import_done: Import done!
   restrictions:
@@ -606,7 +606,7 @@ STRINGS:
     filtr_tban_success: |
       %s banned %s for %s
       reason is %s
-    filter_title_tmute: tMute the user
+    filter_title_tmute: TMute the user
     filter_title_mute: Mute the user
     filter_title_tban: tBan the user
     filter_title_kick: Kick user
@@ -632,7 +632,7 @@ STRINGS:
     # success_remove_rules_note: "Successfully removed rules note in <b>{}</b>."
   greetings:
     default_welcome: "Welcome {mention}! How are you?"
-    thank_for_add: "Thanks for adding me to your group! Take a look at /help and follow my news channel @HitsukiNews."
+    thank_for_add: "Thanks for adding me to your group! Please Take a look at /help and report Bugs in @BotLabSupport."
     default_security_note: "Welcome {mention}! Please press button below to verify yourself as human!"
 
     bool_invalid_arg: Invalid argument, expected <code>on</code>/<code>off</code>.
@@ -768,49 +768,6 @@ STRINGS:
     # /setfloodaction
     invalid_args: "Unsupported action, expected {supported_actions}!"
     setfloodaction_success: "Successfully updated flood action to <b>{action}</b>!"
-
-  android:
-    cmd_example: "Please type your device <b>codename</b>!\nFor example, <code>/{cmd} whyred</code>"
-    err_github: "Hitsuki have been trying to connect to GitHub User Content, It seem like GitHub User Content is down"
-    err_query: "Couldn't find any results matching your query."
-    err_ota: "Tell the rom maintainer to fix their OTA json. I'm sure this won't work with OTA and it won't work with this bot too :P"
-    err_twrp: "TWRP is not available for <code>{device}</code>"
-    err_sam: "Couldn't find any firmwares for {model} - {csc}, please refine your search or try again later!"
-    err_sam_pub: "<b>No public release found for {model} and {csc}.</b>\n\n"
-    dl_btn: "Click here to download!"
-    download: "<b>Download:</b> <a href='{url}'>{filename}</a>\n"
-    build_size: "<b>Build Size:</b> <code>{size}</code>\n"
-    version: "<b>Version:</b> <code>{version}</code>\n"
-    android_version: "<b>Android Version:</b> <code>{version}</code>\n"
-    maintainer: "<b>Maintainer:</b> {name}\n"
-    whatis: "<b>{device}</b> is <code>{brand} {name}</code>\n"
-    variants: "<b>Model</b>: <code>{model}</code> \n<b>Name:</b> <code>{name}</code>\n\n"
-    magisk: "<b>Latest Magisk Releases:</b>\n"
-    phh: "<b>Phh's latest GSI release(s):</b>\n"
-    phhmagisk: "<b>Phh's latest Magisk release(s):</b>\n"
-    twrp_header: "<b><u>TeamWin Recovery <i>official</i> release</u></b>\n"
-    sam_cmd_example: "Please type your device <b>MODEL</b> and <b>CSC</b> into it!\ni.e <code>/{cmd} SM-J710MN ZTO</code>!"
-    sam_down_from: "\n<b>Download from below:</b>\n"
-    sam_latest: "<b>Latest available firmware:</b>\n"
-    sam_test: "<b>Latest test firmware:</b>\n"
-    phh_tag: "<b>Tag:</b> <code>{tag}</code>\n"
-    phh_size: "<b>Size</b>: <code>{size}</code>\n\n"
-    twrp_device: "  <b>Device:</b> {device}\n"
-    twrp_udpated: "  <b>Updated:</b> <code>{date}</code>\n"
-    twrp_size: "  <b>Size:</b> <code>{size}</code>\n"
-    twrp_file: "  <b>File:</b> <code>{dl_file}</code>"
-    of_available: "<b>OrangeFox Recovery <i>{build_type}</i> is currently avaible for:</b>"
-    of_invalid_type: "'<b>{build_type}</b>' is not a type of build available, the types are just '<b>beta</b>' or '<b>stable</b>'."
-    of_stable_ex: "To get the latest Stable release use <code>/ofox (codename)</code>, for example: <code>/ofox raphael</code>"
-    of_beta_ex: "To get the latest Beta release use <code>/ofox (codename) beta</code>, for example: <code>/ofox raphael beta</code>"
-    of_no_releases: "There is no '<b>{build_type}</b>' releases for <b>{device}</b>."
-    of_device_page: "Device's page"
-    of_header: "<u><b>OrangeFox Recovery <i>{build_type}</i> release</b></u>\n"
-    of_device: "  <b>Device:</b> {fullname} (<code>{codename}</code>)\n"
-    of_version: "  <b>Version:</b> {version}\n"
-    of_release_date: "  <b>Release date:</b> {date}\n"
-    of_maintainer: "  <b>Maintainer:</b> {name}\n"
-    of_changelog: "  <u><b>Changelog:</b></u>\n"
 
   anime:
     search_err: "Something went wrong, check your search and try again!"

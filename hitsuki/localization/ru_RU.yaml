@@ -170,12 +170,14 @@ STRINGS:
   pm_menu:
     start_hi_group: 'Привет! Меня зовут Hitsuki'
     start_hi: "Привет! Меня зовут Sophie. Я помогу вам эффективно управлять вашей группой!"
-    btn_source: "📦 Source code"
-    btn_help: "❔ Помощь"
-    btn_lang: "🇷🇺 Язык"
-    btn_channel: "📬 Новости Hitsuki"
+    btn_help: "📕 Help"
+    btn_add: "➕ Add Me"
+    btn_lang: "🌐 Languages"
+    btn_chat: "🚑 Support"
+    btn_channel: "📬 Updates"
+    btn_source: "📦 Source"
     btn_group_help: "Click me for help!"
-    back: Назад
+    back: 🔙
     help_for: "Help for <b>{mod_name}</b> module:\n"
     help_for_a: "Help for {mod_name}."
     #/help
@@ -553,7 +555,7 @@ STRINGS:
   #success_remove_rules_note: "Successfully removed rules note in <b>{}</b>."
   greetings:
     default_welcome: "Добро пожаловать, {mention}! Как вы?"
-    thank_for_add: "Thanks for adding me to your group! Take a look at /help and follow my news channel @HitsukiNews."
+    thank_for_add: "Thanks for adding me to your group! Take a look at /help and follow my news channel @NaoUpdates."
     default_security_note: "Добро пожаловать, {mention}! Пожалуйста, нажмите кнопку ниже, чтобы подтвердить, что вы человек!"
     bool_invalid_arg: Недопустимый аргумент, ожидается <code>on</code> (включить)/<code>off</code> (выключить).
     #/setwelcome
