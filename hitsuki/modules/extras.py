@@ -251,12 +251,12 @@ __filters__ = {
 }
 
 
-__mod_name__ = "Misc"
+__mod_name__ = "Extras"
 
 __help__ = """
 A module with some useful commands but without a specific category.
 
-<b>Available commands:</b>
+<b>Misc commands:</b>
 - /direct (url): Generates direct links from the sourceforge.net
 - /github (username): Returns info about a GitHub user or organization.
 - /cancel: Disables current state. Can help in cases if Nao not responing on your message.
@@ -265,8 +265,18 @@ A module with some useful commands but without a specific category.
 - /afk (reason): Mark yourself as AFK. When marked as AFK, any mentions will be replied to with a message stating that you're not available!
 - /getsticker: Give the sticker image and ID.
 
+<b>Languages:</b>
 - /lang: Shows a list of avaible languages
 - /lang (language codename): Sets a language
 <b>Example:</b> <code>/lang</code>
-Hitsuki will send you bunch of inline buttons where you can select your prefered language interatively without any hassles!
+Nao will send you bunch of inline buttons where you can select your prefered language interatively without any hassles!
+
+<b>Anime:</b>
+- /anime (anime): returns information about the anime.
+- /manga (manga): returns information about the manga.
+- /airing (anime): returns anime airing info.
+- /character (character): returns information about the character.
+- /kaizoku (anime): search an anime on animekaizoku.com
+- /kayo (anime): search an anime on animekayo.com
+- /upcoming: returns a list of new anime in the upcoming seasons.
 """
