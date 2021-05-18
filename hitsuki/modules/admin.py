@@ -114,4 +114,6 @@ __help__ = """
 - /admincache: Update the admin cache, to take into account new admins/admin permissions.
 - /pin: silently pins the message replied to - add 'loud' or 'notify' to give notify to users.
 - /unpin: unpins the currently pinned message - add 'all' to unpin all pinned messages.
+- /setrules (rules): saves the rules (also works with reply)
+- /rules: Shows the rules of chat if any!
 """
