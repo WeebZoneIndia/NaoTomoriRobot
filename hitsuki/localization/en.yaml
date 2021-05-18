@@ -194,8 +194,8 @@ STRINGS:
 
   pm_menu:
     start_hi_group: 'Hey there! My name is <b>Nao</b>'
-    start_hi: "Hey there! My name is <a href='https://telegra.ph/file/f5c14e09f684c9fd64ade.png'>Nao</a>. I am an Anime themed group management bot, feel free to add me to your groups."
-    btn_help: "📕 Help"
+    start_hi: "Hey there! I am <a href='https://telegra.ph/file/f5c14e09f684c9fd64ade.png'>Nao</a> an Anime themed group management bot, feel free to add me to your groups :D"
+    btn_help: "📕 Commands"
     btn_add: "➕ Add Me"
     btn_lang: "🌐 Languages"
     btn_chat: "🚑 Support"
@@ -207,7 +207,7 @@ STRINGS:
     help_for_a: "Help for {mod_name}."
 
     # /help
-    help_header: "Hey! My name is <a href='https://telegra.ph/file/558dca29bd62a0419992e.jpg'>Nao</a>. I am an Anime themed group management bot, here to help you get around and keep the order in your groups!"
+    help_header: "<b>Here is the Help menu:</b>"
     click_btn: Click here
 
   disable:
