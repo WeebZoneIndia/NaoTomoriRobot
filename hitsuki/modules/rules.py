@@ -126,9 +126,3 @@ async def __import__(chat_id, data):
 
 
 __mod_name__ = "Rules"
-
-__help__ = """
-<b>Available Commands:</b>
-- /setrules (rules): saves the rules (also works with reply)
-- /rules: Shows the rules of chat if any!
-"""
