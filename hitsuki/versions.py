@@ -17,4 +17,4 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 HITSUKI_VERSION = "v2.2.9-H3.4"
-
+DB_STRUCTURE_VER = 8
