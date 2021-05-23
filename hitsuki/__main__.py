@@ -75,6 +75,8 @@ async def before_srv_task(loop):
         log.debug('Before serving: ' + module.__name__)
         loop.create_task(module.__before_serving__(loop))
 
+import_module("hitsuki.utils.db_structure_migrator")
+
 
 async def start(_):
     log.debug("Starting before serving task for all modules...")
