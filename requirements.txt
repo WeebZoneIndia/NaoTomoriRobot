@@ -8,7 +8,6 @@ aioredis # Redis memery storage fom aiogram
 pymongo
 motor
 dnspython # needed to connect to cloud MongoDB instances
-odmantic # MongoDB ORM
 
 # Optional deps to make bot faster
 aiohttp[speedups]
