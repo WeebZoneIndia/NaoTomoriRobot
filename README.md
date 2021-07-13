@@ -16,5 +16,5 @@ To anyone coming here to **clone this bot**, no support will be given for it. If
 - Frequently updated
 - Nao respects your data privacy, we constantly improving privacy and security in Nao
 
-Bot Demo: [Nao Tomori](https://t.me/NaoTomoriRobot)
-| Updates Channel: [Bot Lab Updates](https://t.me/NaoUpdates)
+> Bot Demo: [Nao Tomori](https://t.me/NaoTomoriRobot)
+> Updates Channel: [Nao Updates](https://t.me/NaoUpdates)
