@@ -8,12 +8,13 @@ To anyone coming here to **clone this bot**, no support will be given for it. If
 
 ## Nao's features over other bots
 
-* Modern
-* Fast
-* Modular
-* Fully asynchronous
-* Fully open-source
-* Frequently updated
-* Nao respects your data privacy, we constantly improving privacy and security in Nao
+- Modern
+- Fast
+- Modular
+- Fully asynchronous
+- Fully open-source
+- Frequently updated
+- Nao respects your data privacy, we constantly improving privacy and security in Nao
 
-Bot Demo: [Nao Tomori](https://t.me/NaoTomoriRobot) | Updates Channel: [Bot Lab Updates](https://t.me/BotLabUpdates)
+#Bot Demo: [Nao Tomori](https://t.me/NaoTomoriRobot)
+#Updates Channel: [Bot Lab Updates](https://t.me/NaoUpdates)
