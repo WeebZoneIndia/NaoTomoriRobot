@@ -1,10 +1,11 @@
 # General
+#telethon
 telethon~=1.17.0
 aiogram
 
 # DBs
 redis
-aioredis # Redis memery storage fom aiogram
+aioredis==1.3.1 # Redis memery storage fom aiogram
 pymongo
 motor
 dnspython # needed to connect to cloud MongoDB instances
@@ -15,14 +16,12 @@ cryptg
 cryptography
 
 # Other
-orjson
-jikanpy
 envparse
 hypercorn
 aiocron
 apscheduler
 requests
-python-rapidjson
+ujson
 PyYAML>5.0
 coloredlogs
 loguru
@@ -31,8 +30,3 @@ babel
 captcha
 async-timeout
 regex
-bs4
-lxml
-httpx[http2]
-python-anilist
-markdown
